@@ -1,0 +1,75 @@
+body {
+    background-image: url('./images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 877px;
+    height: 620px;
+    overflow: hidden;
+    display: flex;
+}
+
+.image {
+    position: absolute;
+}
+
+#muc {
+    animation: moveRightMuc 5s infinite;
+}
+
+@keyframes moveRightMuc {
+    0% { left: -3px; top: 0; }
+    30% { top: 100px; }
+    60% { top: 50px; }
+    80% { top: 20px; }
+    100% { left: 1000px; top: 0; }
+}
+
+#ca-cam {
+    width: 100px; 
+    height: 100px; 
+    animation: moveLeftCaCam 5s infinite;
+}
+
+@keyframes moveLeftCaCam {
+    0% { right: -7px; top: 0; }
+    30% { top: 70px; }
+    60% { top: 40px; }
+    80% { top: 17px; }
+    100% { right: 800px; top: 0; }
+}
+
+#ca-con {
+    animation: moveRightCaDoc 3s infinite;
+}
+
+@keyframes moveRightCaDoc {
+    0% { left: -1px; top: 0; }
+    30% { top: 120px; }
+    60% { top: 70px; }
+    80% { top: 35px; }
+    100% { left: 1050px; top: 0; }
+}
+
+#muc-bip {
+    animation: moveLeftMucBip 2s infinite;
+}
+
+@keyframes moveLeftMucBip {
+    0% { right: -10px; top: 0; }
+    30% { top: 135px; }
+    60% { top: 65px; }
+    80% { top: 38px; }
+    100% { right: 1100px; top: 0; }
+}
+
+#ca-doc {
+    animation: moveRightCaCon 1s infinite;
+}
+
+@keyframes moveRightCaCon {
+    0% { left: -3px; top: 0; }
+    30% { top: 134px; }
+    60% { top: 85px; }
+    80% { top: 45px; }
+    100% { left: 955px; top: 0; }
+}
