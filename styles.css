@@ -24,10 +24,8 @@ body {
     100% { left: 1000px; top: 0; }
 }
 
-#ca-cam {
-    width: 100px; 
-    height: 100px; 
-    animation: moveLeftCaCam 5s infinite;
+#muc-bip {
+   right: auto;
 }
 
 @keyframes moveLeftCaCam {
@@ -50,9 +48,7 @@ body {
     100% { left: 1050px; top: 0; }
 }
 
-#muc-bip {
-    animation: moveLeftMucBip 2s infinite;
-}
+
 
 @keyframes moveLeftMucBip {
     0% { right: -10px; top: 0; }
